@@ -1,6 +1,6 @@
-# 🎉 DEMO Laravel Breeze
+# 🎉 DEMO Laravel Generate PDF
 
-Laravel Breeze is a lightweight, minimalistic starter kit for Laravel, providing pre-built authentication scaffolding, views, and controllers to help developers quickly set up user registration, login, and password reset functionality in their Laravel applications.
+Laravel's PDF generation simplifies creating dynamic PDFs from views with powerful libraries like DomPDF and TCPDF, enhancing your application's document generation capabilities.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
