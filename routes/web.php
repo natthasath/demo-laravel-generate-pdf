@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PDFController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,5 +36,7 @@ Route::get('/test/pdf', function () {
     $pdf = Pdf::loadView('testpdf', compact('a', 'b', 'c'));
     return $pdf->stream();
 });
+
+Route::get('/pdf', [PDFController::class, 'download'])->name('pdf.download');
 
 require __DIR__.'/auth.php';
