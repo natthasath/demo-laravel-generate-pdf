@@ -1,6 +1,6 @@
 # 🎉 DEMO Laravel Generate PDF
 
-Laravel's PDF generation simplifies creating dynamic PDFs from views with powerful libraries like DomPDF and TCPDF, enhancing your application's document generation capabilities.
+DomPDF is a PHP library that converts HTML web pages into high-quality PDFs.  It understands CSS and lets you customize the layout and styling of your PDFs using familiar HTML and CSS techniques.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
